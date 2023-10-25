@@ -12,12 +12,7 @@ Source0: 	https://files.pythonhosted.org/packages/source/%{mod}/ino/%{module}-%{
 BuildArch:	noarch
 
 BuildRequires:	pkgconfig(python)
-BuildRequires:	python%{pyver}dist(argparse)
-BuildRequires:	python%{pyver}dist(configobj)
-BuildRequires:	python%{pyver}dist(jinja2)
-BuildRequires:	python%{pyver}dist(ordereddict)
 BuildRequires:	python%{pyver}dist(pip)
-BuildRequires:	python%{pyver}dist(pyserial)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
 
